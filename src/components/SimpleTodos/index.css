@@ -1,0 +1,34 @@
+/* Write your CSS here */
+.bg-page {
+  background-color: #ffc2a0;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  width: 90vw;
+  margin: 20px;
+}
+
+.card-heading {
+  font-family: 'Roboto';
+  font-size: 44px;
+  font-weight: bold;
+  color: #ff8542;
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+}
