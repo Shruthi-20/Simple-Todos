@@ -6,12 +6,72 @@
   justify-content: space-between;
   align-items: center;
   margin: 10px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+  min-width: 0;
+  flex-wrap: wrap;
+}
+
+.edit-input {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: black;
+  padding-left: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  outline: none;
+  width: 20vw;
+  margin-right: 15px;
+  margin-top: 18px;
+  margin-bottom: 18px;
+  margin-left: 15px;
+}
+
+.checkbox-container {
+  margin-right: 15px;
 }
 
 .todo-text {
   font-family: 'Roboto';
   font-size: 24px;
   color: #000000;
+  flex-wrap: wrap;
+  width: 100%;
+  white-space: normal;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  flex: 1;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.edit-save-btn {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(255, 72, 0);
+  background-color: transparent;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  cursor: pointer;
+  outline: none;
+  margin-right: 15px;
+  border: 1px solid rgb(255, 72, 0);
+  border-radius: 8px;
+  margin-left: 20px;
 }
 
 .delete-btn {
